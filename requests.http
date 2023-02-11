@@ -1,0 +1,10 @@
+### demo without any authentication
+GET http://localhost:8080/demo
+
+### demo with basic auth
+GET http://localhost:8080/demo
+Authorization: Basic user:8ebb1ddd-06f2-470e-8f64-cea10035bc14
+
+### demo with api key
+GET http://localhost:8080/demo
+x-api-key: top-secret
